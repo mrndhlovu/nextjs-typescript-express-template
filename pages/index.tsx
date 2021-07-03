@@ -1,22 +1,5 @@
-import Layout from "../components/layout";
+import HomePage from "../components/home/HomePage";
 
-import HomeSidebar from "../components/home/HomeSidebar";
-import CardsList from "../components/home/CardsList";
+const Index = () => <HomePage />;
 
-export default function Home({ allCardsData }) {
-  return (
-    <Layout>
-      <HomeSidebar />
-      <CardsList />
-    </Layout>
-  );
-}
-
-export async function getStaticProps() {
-  const allCardsData = [];
-  return {
-    props: {
-      allCardsData,
-    },
-  };
-}
+export default Index;

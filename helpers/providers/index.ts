@@ -1,3 +1,4 @@
-import ThemeProvider from "./ThemeProvider";
+import ThemeProvider from "./ThemeProvider"
+import GlobalContextProvider from "./GlobalContextProvider"
 
-export { ThemeProvider };
+export { ThemeProvider, GlobalContextProvider }

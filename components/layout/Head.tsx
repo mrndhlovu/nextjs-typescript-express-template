@@ -1,8 +1,8 @@
-import Head from "next/head";
-import React, { ReactElement } from "react";
+import Head from "next/head"
+import React, { ReactElement } from "react"
 
 interface Props {
-  siteTitle: string;
+  siteTitle: string
 }
 
 const UIHead = ({ siteTitle }: Props): ReactElement => {
@@ -22,7 +22,7 @@ const UIHead = ({ siteTitle }: Props): ReactElement => {
       <meta name="og:title" content={siteTitle} />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
-  );
-};
+  )
+}
 
-export default UIHead;
+export default UIHead

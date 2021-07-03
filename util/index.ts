@@ -1,0 +1,7 @@
+export const getMessageString = (msg: any) =>
+  msg?.errorMessage ??
+  msg?.data?.message ??
+  msg?.response?.data.message ??
+  msg?.message ??
+  msg?.msg ??
+  msg

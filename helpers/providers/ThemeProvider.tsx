@@ -1,8 +1,8 @@
-import React from "react";
-import { ThemeProvider as UITheme } from "styled-components";
+import React from "react"
+import { ThemeProvider as UITheme } from "styled-components"
 
-import theme from "../../theme";
-import GlobalStyles from "../../theme/GlobalStyles";
+import theme from "../../theme"
+import GlobalStyles from "../../theme/GlobalStyles"
 
 const ThemeProvider = ({ children }) => {
   return (
@@ -10,7 +10,7 @@ const ThemeProvider = ({ children }) => {
       <GlobalStyles />
       {children}
     </UITheme>
-  );
-};
+  )
+}
 
-export default ThemeProvider;
+export default ThemeProvider
